@@ -7,3 +7,11 @@ function finalGrade(exam, projects) {
 }
 ```
 
+# Sentence Smash [8 kyu] #2
+
+```js
+function smash (words) {
+   return words.join(' ');
+};
+```
+
