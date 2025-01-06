@@ -15,3 +15,18 @@ function smash (words) {
 };
 ```
 
+# Growth of a Population [7 kyu] #3
+
+```js
+function nbYear(p0, percent, aug, p) {
+let firstYear = Math.floor(p0 + p0 * (percent/100) + aug);
+let nextP = firstYear;
+let nbYear = 1;
+while (nextP < p){
+  nextP = Math.floor(nextP + nextP * (percent/100) + aug);
+  nbYear++;
+}
+  return nbYear;
+}
+```
+
