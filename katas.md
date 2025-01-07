@@ -30,3 +30,12 @@ while (nextP < p){
 }
 ```
 
+# Beginner Series #1 School Paperwork [8 kyu] #4
+
+```js
+function paperwork(n, m) {
+return n > 0 && m > 0 ? n*m : 0;
+}
+
+```
+
